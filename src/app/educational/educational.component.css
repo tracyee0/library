@@ -1,0 +1,41 @@
+.amazing_feature {
+    background:#f8f8f8;
+    padding-top:60px;
+    padding-bottom:30px;
+    }
+    .single_feature {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 40px 65px;
+    text-align: center;
+    }
+    .single_feature i {
+    border: 1px solid #e8e8e9;
+    border-radius: 50%;
+    color: #333;
+    display: inline-block;
+    font-size: 24px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto 15px;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 80px;
+    z-index: 3;
+    }
+    .single_feature:hover i{
+        background: #ff5f83;border: 1px solid #ff5f83;color:#fff;
+    }
+    .single_feature h3 {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .single_feature span {
+    border-bottom: 1px dashed #ccc;
+    display: block;
+    margin: 15px auto 10px;
+    width: 80px;
+    }
+    .single_feature p { margin-bottom: 0 }
