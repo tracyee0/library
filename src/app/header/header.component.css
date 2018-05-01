@@ -1,3 +1,13 @@
 .new-nav {
     float: right;
 }
+.reg{
+    text-decoration-line: none;
+    color: white;
+}
+.navbar-brand{
+    font-size:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}

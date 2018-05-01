@@ -1,33 +1,36 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a routerLink="/landing" class="navbar-brand">Smart-Library</a>
+      <a routerLink="/home" class="navbar-brand text-info">Smart-Library</a>
     </div>
     <ul class="nav navbar-nav new-nav">
       <form class="form-group">
-        <input type="text"><button type="button" class="btn btn-info">
-            <span class="glyphicon glyphicon-search"></span> Search
+        <input type="text"><button type="button" class="btn btn-info" placeholder="enter book name">
+            <span class="glyphicon glyphicon-search"></span> Search for Book
           </button>
       </form><br>
       <li>
-        <a routerLink="/educational">Educational</a>
+        <a routerLink="/home">Home</a>
       </li>
       <li>
-        <a>Motivational</a>
+        <a routerLink="/educational">Education</a>
       </li>
       <li>
-        <a>Politics</a>
+        <a routerLink="/motivational">Motivation</a>
       </li>
       <li>
-        <a>Technology</a>
+        <a routerLink="/politics">Politics</a>
       </li>
       <li>
-        <a>Others</a>
+        <a routerLink="/technology">Technology</a>
+      </li>
+      <li>
+        <a routerLink="/others">Others</a>
       </li>
       <li>
           <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
               <span class="glyphicon glyphicon-search"></span>
-            <a>Register a Book</a></button>
+            <a class="reg">Register a Book</a></button>
         </li>
     </ul>
 <!-- 
@@ -57,11 +60,11 @@
         <div class="modal-body">
           <div class="form-group">
             <label>Staff ID</label>
-            <input type="text" [(ngModel)]="staffId"  class="form-control">
+            <input type="text" [(ngModel)]="staffId"  class="form-control" placeholder="enter StaffID">
           </div>
           <div class="form-group">
             <label>Password</label>
-            <input type="password" [(ngModel)]="pwd" class="form-control">
+            <input type="password" [(ngModel)]="pwd" class="form-control" placeholder="enter Password">
           </div>
           <div class="checkbox">
             <label>

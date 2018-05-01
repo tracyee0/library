@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
   }
   validateform(){
     if (this.staffId == "001" && this.pwd == "smartlib"){
-      alert("We are too much!")
+    
       this.router.navigateByUrl("register")
     
     }
